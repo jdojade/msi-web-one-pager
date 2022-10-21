@@ -2,7 +2,6 @@
     font-family: 'nimbus_sans_lbold';
     src: url('NimbusSanL-Bol-webfont.eot');
     src: url('NimbusSanL-Bol-webfont.eot?#iefix') format('embedded-opentype'),
-         url('NimbusSanL-Bol-webfont.woff2') format('woff2'),
          url('NimbusSanL-Bol-webfont.woff') format('woff'),
          url('NimbusSanL-Bol-webfont.ttf') format('truetype'),
          url('NimbusSanL-Bol-webfont.svg#nimbus_sans_lbold') format('svg');

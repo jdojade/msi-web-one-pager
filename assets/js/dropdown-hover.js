@@ -30,6 +30,18 @@ function HideTheSecondMenu(){
   }
   */
 
+  
+function DropTheFirstMenu(){
+  document.getElementById("dropdown-max-menu").style.display = 'block';
+  document.getElementById("main").style.opacity = '0.8';
+}
+
+function HideTheFirstMenu(){
+  document.getElementById("dropdown-max-menu").style.display = 'none';
+  document.getElementById("main").style.opacity = '1';
+}
+
+
    /**
    Header Change
    */
@@ -53,7 +65,7 @@ function Headerchange(){
 function Headerback(){
 
   document.getElementById("header").style.backgroundColor = 'white';
-  document.getElementById("logoimg").src = 'assets/img/logo/msi-flat-logo.png';
+  document.getElementById("logoimg").src = 'assets/img/logo/normal-theme/full-normal-primary.png';
   
   document.getElementById("nav1").style.color = '#7f7f90';
   document.getElementById("nav2").style.color = '#7f7f90';
@@ -62,3 +74,4 @@ function Headerback(){
   document.getElementById("nav5").style.color = '#7f7f90';
   document.getElementById("nav6").style.color = '#7f7f90';
 }
+

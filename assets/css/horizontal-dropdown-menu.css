@@ -7,7 +7,7 @@ Start of first Dropdown Menu
   font-style:normal;
   font-weight:550;
   src:local('Handel Gothic D'),
-  url(assets/css/fonts/Handel-Gothic-D/HandelGothic.woff) format('woff')}
+  url(../assets/css/fonts/Handel-Gothic-D/HandelGothic.woff) format('woff')}
 
 :root {
   --font-default: 'nimbus_sans_lregular', sans-serif;

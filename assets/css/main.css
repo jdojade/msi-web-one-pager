@@ -677,11 +677,10 @@ section {
 .content {
   z-index: 2;
   text-align: center;
-  margin-top: 30%;
 }
 
 .content h1 {
-  font-size: 130px;
+  font-size: 9rem;
   -webkit-text-stroke: 1px #fff;
   color: transparent;
   font-weight: 900;
@@ -693,6 +692,31 @@ section {
   color: #fff;
 }
 
+.content h3{
+  font-size: 2.3rem;
+  -webkit-text-stroke: 1px #fff;
+  color: #fff;
+  font-weight: 900;
+  transition: 0.5s;
+  font-family: 'Handel Gothic D', sans-serif;
+}
+
+.content h3:hover {
+  color: #fff;
+}
+
+.content .text{
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 900;
+  transition: 0.5s;
+  font-family: 'Handel Gothic D', sans-serif;
+  text-align: center;
+}
+
+.content.text:hover {
+  color: #fff;
+}
 
 .content a {
   text-decoration: none;
@@ -2594,3 +2618,66 @@ body::-webkit-scrollbar{
 }
 
 
+body {
+  background: url('background-image.jpg');
+  background-size: cover;
+}
+
+.login-form {
+  width: 30rem;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgba(255,255,255,0.5); /* Semi-transparent background */
+  border-radius: 1rem;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background: rgba(255,255,255,0.9); /* Semi-transparent input fields */
+  border-radius: 3px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #333;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.socials {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.socials a {
+  margin: 1rem 10px;
+}
+
+.socials img {
+  width: 32px;
+  height: 32px;
+}
+
+.social-heading{
+  -webkit-text-stroke: 1px #0e0e0e !important;
+  font-size: 1.5rem !important;
+  color: #111111 !important;
+  font-weight: 900 !important;
+  transition: 0.5s !important;
+  font-family: 'Handel Gothic D', sans-serif !important;
+  text-align: center !important;
+}
+
+.social-heading:hover {
+  color: #000000 !important;
+}

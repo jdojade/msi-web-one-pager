@@ -2670,12 +2670,13 @@ body {
 
 .social-heading{
   -webkit-text-stroke: 1px #0e0e0e !important;
-  font-size: 1.5rem !important;
+  font-size: 2rem !important;
   color: #111111 !important;
   font-weight: 900 !important;
   transition: 0.5s !important;
   font-family: 'Handel Gothic D', sans-serif !important;
   text-align: center !important;
+  text-transform: uppercase;
 }
 
 .social-heading:hover {

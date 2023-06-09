@@ -2667,7 +2667,18 @@ body {
   width: 32px;
   height: 32px;
 }
-
+.socials .bxl-facebook-circle {
+  color: #009fff;
+}
+.socials .bxl-facebook-circle:hover {
+  color: #009fff;
+}
+.socials .bxl-youtube {
+  color: #ff0000;
+}
+.socials .bxl-youtube:hover {
+  color: #ff0000;
+}
 .social-heading{
   -webkit-text-stroke: 1px #0e0e0e !important;
   font-size: 2rem !important;
